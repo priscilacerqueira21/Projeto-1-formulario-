@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="formulário.css" media="">
+    <title>Formulário Resilia</title>
+</head>
+<body>
+        <div class="campo">
+        <h1 id="titulo">Cadastro de DEVs</h1>
+        <BR>
+        <BR>
+        <p id="subtitulo"><strong>Olá, somos a Resilia, o mercado de trabalho está precisando de novos desenvolvedores!
+            Você tem interesse em aprender programação?  VEM APRENDER NA MELHOR ESCOLA DE TECNOLOGIA!
+            Complete suas informações.</strong></p>
+        <br>
+        </div>
+
+        <form>
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label for="nome"><strong>Nome</strong></label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+
+                <div class="campo">
+                    <label for="sobrenome"><strong>Sobrenome</strong></label>
+                    <input type="text" name="sobrenome" id="sobrenome"  required>
+                </div>
+            </fieldset>
+                <div class="campo">
+                    <label for="data de nascimento"><strong>Data de Nascimento</strong></label required>
+                    <input type="date">
+                </div>
+
+                <div class="campo">
+                    <label for="celular/whatsapp"><strong>Celular/Whatsapp</strong></label required>
+                    <input type="text" name="celular/whatsapp" id="celular/whatsapp">
+                </div>
+
+                <div class="campo">
+                    <label for="email"><strong>Email</strong></label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+
+                <div class="campo">
+                    <label><strong>De qual lado da aplicação você prefere?</strong></label>
+                    <label>
+                        <input type=radio name="devweb" value="frontend checked"><strong>Front-end</strong>
+
+                    </label>
+                    <label>
+                        <input type="radio" name="devweb" value="backend"><strong>Back-end</strong>
+                    </label>
+                    <label>
+                        <input type="radio" name="devweb" value="fullstack"><strong>Fullstack</strong>
+                    </label>
+                </div>
+                <fieldset class="grupo"></fieldset>
+                <div class="campo">
+                    <label><strong>Estado</strong></label>
+                    <select id="Estado">
+                        <option selected disabled value="">Selecione</option> 
+                        <option>Bahia</option>
+                        <option>Rio de Janeiro</option>
+                        <option>Rio Grande do Sul</option>
+                        <option>São Paulo</option>
+                        <option>Outros</option>
+                    </select>
+                </div>
+            </fieldset>
+
+        <div class="campo">
+        <br>
+        <label> <strong>Conte um pouco sobre você! A RESÍLIA, Quer te conhecer!</strong></label>
+        <textarea row="6" style="width: 26em" id="conhecer" name="conhecer"></textarea>
+        </div>
+
+        <button type="submit">Concluído</button>
+
+    </form>
+    
+    
+
+    <br>
+    <br>
+    <footer>
+        <p class="rodapé"><img src="RESILIA-LOGO.png"></p>
+        <p class="copyright">Todos os direitos reservados © 2021 Resilia</p>
+    </footer>
+</body>
+</html>
